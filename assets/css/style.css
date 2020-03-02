@@ -1,11 +1,9 @@
 
   .container-fluid {
     background-color: grey;
-    background-image: url("../Images/Background.png");
     border-color: #eeeeee;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 0px;
   
   }
-
