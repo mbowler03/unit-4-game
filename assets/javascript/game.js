@@ -64,6 +64,8 @@ var endGame = function() {
     document.getElementById("win-count").innerHTML = winCount;
     $('#playerScore').empty();
     $('#userRandomNumber').empty();
+    playerScore = 0;
+    userRandomNumber = 0;
     start();
     } 
     else if (userRandomNumber < playerScore) {
@@ -72,6 +74,8 @@ var endGame = function() {
     document.getElementById("loss-count").innerHTML = lossCount;
     $('#playerScore').empty();
     $('#userRandomNumber').empty();
+    playerScore = 0;
+    userRandomNumber = 0;
     start();
     }
 };
